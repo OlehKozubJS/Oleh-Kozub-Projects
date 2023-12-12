@@ -23,7 +23,7 @@ const CarModal = ({ carId, onClose }) => {
     <div>
       <div>
         <button onClick={onClose}>
-          <SVGimage name="close" />
+          <SVGimage name="up" />
         </button>
       </div>
       <img src={car.img} alt="" />
