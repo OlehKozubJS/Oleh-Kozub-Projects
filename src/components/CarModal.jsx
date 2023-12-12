@@ -82,9 +82,7 @@ const CarModal = ({ carId, onClose }) => {
         </div>
       </div>
       <button>Rental car</button>
-    </div> /*
-    
-    <div>Hello</div>*/
+    </div>
   );
 };
 
