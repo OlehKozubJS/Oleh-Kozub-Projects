@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/car-rent-fullstack/static/css/main.3f6cce75.css",
-    "main.js": "/car-rent-fullstack/static/js/main.28c87c8f.js",
-    "static/media/Montserrat-SemiBold.ttf": "/car-rent-fullstack/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
-    "static/media/Montserrat-Regular.ttf": "/car-rent-fullstack/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/Manrope-SemiBold.ttf": "/car-rent-fullstack/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
-    "static/media/Manrope-Medium.ttf": "/car-rent-fullstack/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
-    "static/media/Manrope-Regular.ttf": "/car-rent-fullstack/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
-    "static/media/icons.svg": "/car-rent-fullstack/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
-    "index.html": "/car-rent-fullstack/index.html",
-    "main.3f6cce75.css.map": "/car-rent-fullstack/static/css/main.3f6cce75.css.map",
-    "main.28c87c8f.js.map": "/car-rent-fullstack/static/js/main.28c87c8f.js.map"
+    "main.css": "/oleh-kozub-projects/static/css/main.3f3c08db.css",
+    "main.js": "/oleh-kozub-projects/static/js/main.80313e1d.js",
+    "static/media/Montserrat-SemiBold.ttf": "/oleh-kozub-projects/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/oleh-kozub-projects/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/oleh-kozub-projects/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/oleh-kozub-projects/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/oleh-kozub-projects/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/icons.svg": "/oleh-kozub-projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
+    "index.html": "/oleh-kozub-projects/index.html",
+    "main.3f3c08db.css.map": "/oleh-kozub-projects/static/css/main.3f3c08db.css.map",
+    "main.80313e1d.js.map": "/oleh-kozub-projects/static/js/main.80313e1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f6cce75.css",
-    "static/js/main.28c87c8f.js"
+    "static/css/main.3f3c08db.css",
+    "static/js/main.80313e1d.js"
   ]
 }
