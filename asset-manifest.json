@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/oleh-kozub-projects/static/css/main.3f3c08db.css",
-    "main.js": "/oleh-kozub-projects/static/js/main.80313e1d.js",
-    "static/media/Montserrat-SemiBold.ttf": "/oleh-kozub-projects/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
-    "static/media/Montserrat-Regular.ttf": "/oleh-kozub-projects/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/Manrope-SemiBold.ttf": "/oleh-kozub-projects/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
-    "static/media/Manrope-Medium.ttf": "/oleh-kozub-projects/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
-    "static/media/Manrope-Regular.ttf": "/oleh-kozub-projects/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
-    "static/media/icons.svg": "/oleh-kozub-projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
-    "index.html": "/oleh-kozub-projects/index.html",
-    "main.3f3c08db.css.map": "/oleh-kozub-projects/static/css/main.3f3c08db.css.map",
-    "main.80313e1d.js.map": "/oleh-kozub-projects/static/js/main.80313e1d.js.map"
+    "main.css": "/Oleh-Kozub-Projects/static/css/main.807ef0c8.css",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.b58f9c54.js",
+    "static/media/Montserrat-SemiBold.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Manrope-SemiBold.ttf": "/Oleh-Kozub-Projects/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
+    "static/media/Manrope-Medium.ttf": "/Oleh-Kozub-Projects/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
+    "static/media/Manrope-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
+    "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
+    "index.html": "/Oleh-Kozub-Projects/index.html",
+    "main.807ef0c8.css.map": "/Oleh-Kozub-Projects/static/css/main.807ef0c8.css.map",
+    "main.b58f9c54.js.map": "/Oleh-Kozub-Projects/static/js/main.b58f9c54.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f3c08db.css",
-    "static/js/main.80313e1d.js"
+    "static/css/main.807ef0c8.css",
+    "static/js/main.b58f9c54.js"
   ]
 }
