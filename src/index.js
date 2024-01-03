@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./App.jsx";
+import { Applications } from "./Applications.jsx";
 
 const root = document.querySelector("#root");
 const reactRoot = createRoot(root);
 
 reactRoot.render(
   <StrictMode>
-    <App />
+    <Applications />
   </StrictMode>
 );
