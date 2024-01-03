@@ -2,7 +2,7 @@ import { useState /*useEffect*/ } from "react";
 import { CarModal } from "./CarModal";
 //import cars from "./advertsCars.json";
 
-function CarModal() {
+function CarRent() {
   const [isModal, setIsModal] = useState(false);
 
   const openModal = () => {
@@ -21,4 +21,4 @@ function CarModal() {
   );
 }
 
-export { CarModal };
+export { CarRent };
