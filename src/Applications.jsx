@@ -2,7 +2,7 @@ import { useState /*useEffect*/ } from "react";
 import { CarRent } from "./CarRent";
 //import cars from "./advertsCars.json";
 
-function App() {
+function Applications() {
   return (
     <div>
       <CarRent />
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export { App };
+export { Applications };
