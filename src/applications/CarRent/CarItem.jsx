@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import cars from "../../db";
+import cars from "../../../db";
 
 const CarItem = () => {
   return (
