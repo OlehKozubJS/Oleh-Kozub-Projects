@@ -6,6 +6,11 @@ import { cars } from "../../../db";
 const CarGallery = () => {
   const [isModal, setIsModal] = useState(false);
   const [carId, setCarId] = useState(0);
+  const [carIds] = useState(
+    cars.map((car) => {
+      return car.id;
+    })
+  );
 
   const openModal = () => {
     setIsModal(true);
@@ -22,7 +27,11 @@ const CarGallery = () => {
   return (
     <div>
       <CarModal carId={carId} onClose={closeModal} />
-      <ul></ul>
+      <ul>
+        {carIds.map((carId) => {
+          return <CarItem carId={carId} onLearnMore={getCarId} />;
+        })}
+      </ul>
     </div>
   );
 };
