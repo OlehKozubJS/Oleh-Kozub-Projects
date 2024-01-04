@@ -1,5 +1,5 @@
 import { useState /*useEffect*/ } from "react";
-import { CarRent } from "./CarRent";
+import { CarRent } from "./applications/CarRent";
 //import cars from "./advertsCars.json";
 
 function Applications() {
