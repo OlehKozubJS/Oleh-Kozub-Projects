@@ -1,17 +1,17 @@
-import { useState, useEffect } from 'react';
-import { SVGimage } from '../../images';
-import cars from '../../advertsCars.json';
-import css from './CarModal.module.css';
+import { useState, useEffect } from "react";
+import { SVGimage } from "../../images";
+import { cars } from "../../../db";
+import css from "./CarModal.module.css";
 import {
   ManropeR,
   ManropeM,
   ManropeB,
   MontserratR,
   MontserratB,
-} from '../../fonts';
+} from "../../fonts";
 
 const CarModal = ({ carId, onClose }) => {
-  const [car] = useState(cars.find(car => car.id === carId));
+  const [car] = useState(cars.find((car) => car.id === carId));
   const [isHover, setIsHover] = useState(false);
 
   const handleMouseOver = () => {
@@ -22,16 +22,16 @@ const CarModal = ({ carId, onClose }) => {
   };
 
   useEffect(() => {
-    const handleEsc = event => {
-      if (event.type === 'keydown' && event.key === 'Escape') {
+    const handleEsc = (event) => {
+      if (event.type === "keydown" && event.key === "Escape") {
         onClose();
       }
     };
 
-    window.addEventListener('keydown', handleEsc);
+    window.addEventListener("keydown", handleEsc);
 
     return () => {
-      window.removeEventListener('keydown', handleEsc);
+      window.removeEventListener("keydown", handleEsc);
     };
   }, [onClose]);
 
@@ -47,22 +47,22 @@ const CarModal = ({ carId, onClose }) => {
           >
             <SVGimage
               className={css.CarModalCloseButtonIcon}
-              name={isHover ? 'close-hover' : 'close'}
+              name={isHover ? "close-hover" : "close"}
             />
           </button>
         </div>
         <img className={css.CarModalImage} src={car.img} alt="" />
         <h3 className={`${css.CarModalHeader} ${ManropeM}`}>
-          <span>{car.make}</span>{' '}
-          <span className={css.CarModalItemValue}>{car.model}</span>,{' '}
+          <span>{car.make}</span>{" "}
+          <span className={css.CarModalItemValue}>{car.model}</span>,{" "}
           <span>{car.year}</span>
         </h3>
         <ul className={css.CarModalItems}>
           <li className={`${css.CarModalItem} ${ManropeR}`}>
-            {car.address.split(', ')[1]}
+            {car.address.split(", ")[1]}
           </li>
           <li className={`${css.CarModalItem} ${ManropeR}`}>
-            {car.address.split(', ')[2]}
+            {car.address.split(", ")[2]}
           </li>
           <li className={`${css.CarModalItem} ${ManropeR}`}>
             Id: <span className={css.CarModalItemValue}>{car.id}</span>
@@ -74,11 +74,11 @@ const CarModal = ({ carId, onClose }) => {
             Type: <span className={css.CarModalItemValue}>{car.type}</span>
           </li>
           <li className={`${css.CarModalItem} ${ManropeR}`}>
-            Fuel Consumption:{' '}
+            Fuel Consumption:{" "}
             <span className={css.CarModalItemValue}>{car.fuelConsumption}</span>
           </li>
           <li className={`${css.CarModalItem} ${ManropeR}`}>
-            Engine Size:{' '}
+            Engine Size:{" "}
             <span className={css.CarModalItemValue}>{car.engineSize}</span>
           </li>
         </ul>
@@ -105,29 +105,29 @@ const CarModal = ({ carId, onClose }) => {
           })}
         </ul>
         <h4 className={`${css.CarModalSubHeader} ${ManropeM}`}>
-          Rental Conditions:{' '}
+          Rental Conditions:{" "}
         </h4>
         <ul className={css.CarModalRentalItems}>
           <li className={`${css.CarModalRentalItem} ${MontserratR}`}>
-            Minimum age:{' '}
+            Minimum age:{" "}
             <span className={`${css.CarModalItemValue} ${MontserratB}`}>
-              {car.rentalConditions.split('\n')[0].split(' ')[2]}
+              {car.rentalConditions.split("\n")[0].split(" ")[2]}
             </span>
           </li>
           <li className={`${css.CarModalRentalItem} ${MontserratR}`}>
-            {car.rentalConditions.split('\n')[1]}
+            {car.rentalConditions.split("\n")[1]}
           </li>
           <li className={`${css.CarModalRentalItem} ${MontserratR}`}>
-            {car.rentalConditions.split('\n')[2]}
+            {car.rentalConditions.split("\n")[2]}
           </li>
           <li className={`${css.CarModalRentalItem} ${MontserratR}`}>
-            Mileage:{' '}
+            Mileage:{" "}
             <span className={`${css.CarModalItemValue} ${MontserratB}`}>
               {car.mileage}
             </span>
           </li>
           <li className={`${css.CarModalRentalItem} ${MontserratR}`}>
-            Price:{' '}
+            Price:{" "}
             <span className={`${css.CarModalItemValue} ${MontserratB}`}>
               {car.rentalPrice}
             </span>
