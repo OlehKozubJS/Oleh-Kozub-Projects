@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { SVGimage } from "../../images";
+import { SVGimage } from "../../../images";
 import { cars } from "../../../db";
 import css from "./CarModal.module.css";
 import {
@@ -8,7 +8,7 @@ import {
   ManropeB,
   MontserratR,
   MontserratB,
-} from "../../fonts";
+} from "../../../fonts";
 
 const CarModal = ({ carId, onClose }) => {
   const [car] = useState(cars.find((car) => car.id === carId));
