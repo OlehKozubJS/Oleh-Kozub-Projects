@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { cars } from "../../../db";
 
-const CarItem = ({ carId }) => {
+const CarItem = ({ carId, onLearnMore }) => {
   const [
     { img, make, model, year, rentalPrice, address, rentalCompany, type, id },
   ] = useState(
@@ -9,6 +9,10 @@ const CarItem = ({ carId }) => {
       car.id === carId;
     })
   );
+
+  const handleClick = () => {
+    onLearnMore(id);
+  };
 
   return (
     <li>
@@ -31,7 +35,7 @@ const CarItem = ({ carId }) => {
         <li>{model}</li>
         <li>{id}</li>
       </ul>
-      <button>Learn More</button>
+      <button onClick={handleClick}>Learn More</button>
     </li>
   );
 };
