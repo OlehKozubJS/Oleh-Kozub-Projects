@@ -18,6 +18,8 @@ const CarItem = () => {
         <li></li>
         <li></li>
         <li></li>
+        <li></li>
+        <li></li>
       </ul>
       <button>Learn More</button>
     </li>
