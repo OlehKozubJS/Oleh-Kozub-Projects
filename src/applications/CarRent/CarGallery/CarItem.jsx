@@ -7,7 +7,12 @@ const CarItem = () => {
       <div>
         <img src="" alt="" />
       </div>
-      <h3></h3>
+      <h3>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </h3>
       <ul>
         <li></li>
         <li></li>
