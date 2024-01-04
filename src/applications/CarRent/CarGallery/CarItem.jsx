@@ -1,7 +1,14 @@
 import { useEffect, useState } from "react";
-import cars from "../../../db";
+import { cars } from "../../../db";
 
-const CarItem = () => {
+const CarItem = ({ carId }) => {
+  const [{ make, model, year, rentalPrice, address, rentalCompany, type, id }] =
+    useState(
+      cars.find((car) => {
+        car.id === carId;
+      })
+    );
+
   return (
     <li>
       <div>
