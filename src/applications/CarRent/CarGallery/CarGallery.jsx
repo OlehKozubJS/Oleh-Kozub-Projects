@@ -12,16 +12,13 @@ const CarGallery = () => {
     })
   );
 
-  const openModal = () => {
+  const openModal = (carId) => {
     setIsModal(true);
+    setCarId(carId);
   };
 
   const closeModal = () => {
     setIsModal(false);
-  };
-
-  const getCarId = (carId) => {
-    setCarId(carId);
   };
 
   return (
@@ -29,7 +26,7 @@ const CarGallery = () => {
       {isModal && <CarModal carId={carId} onClose={closeModal} />}
       <ul>
         {carIds.map((carId) => {
-          return <CarItem carId={carId} onLearnMore={getCarId} />;
+          return <CarItem carId={carId} onLearnMore={openModal} />;
         })}
       </ul>
     </div>
