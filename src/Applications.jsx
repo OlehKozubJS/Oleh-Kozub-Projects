@@ -9,10 +9,10 @@ const MyClock = lazyImport("MyClock");
 
 function Applications() {
   return (
-    <div>
+    <Suspense>
       <CarRent />
       <MyClock />
-    </div>
+    </Suspense>
   );
 }
 
