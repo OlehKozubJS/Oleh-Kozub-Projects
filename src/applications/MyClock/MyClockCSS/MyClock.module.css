@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+
+.ClockFace {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: rgba(230, 230, 255, 1);
+  margin-inline: auto;
+  position: relative;
+}
+
+.DateTimeData {
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.Arrow {
+  position: absolute;
+  left: 245px;
+  width: 10px;
+  border-radius: 5px;
+  transform-origin: bottom;
+}
+
+.SecArrow {
+  top: 0px;
+  height: 250px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.MinArrow {
+  top: 50px;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.HourArrow {
+  top: 100px;
+  height: 150px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.ArrowAxisCover {
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.ClockDigitContainer {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  height: 250px;
+  width: 100px;
+  transform-origin: bottom;
+}
+
+.ClockDigit {
+  width: 100px;
+  height: 100px;
+  font-size: 54px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.ClockMarkingContainer {
+  position: absolute;
+  top: 0;
+  left: 245px;
+  height: 250px;
+  width: 10px;
+  transform-origin: bottom;
+}
+
+.ClockMarking {
+  height: 20px;
+  width: 10px;
+  font-size: 54px;
+  background-color: rgba(150, 150, 255, 1);
+  border-radius: 5px;
+}
