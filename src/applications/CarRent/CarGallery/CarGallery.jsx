@@ -23,7 +23,7 @@ const CarGallery = () => {
 
   return (
     <div>
-      {isModal && <CarModal carId={carId} onClose={closeModal} />}
+      {isModal && <CarModal carId={Number(carId)} onClose={closeModal} />}
       <ul>
         {carIds.map((carId, index) => {
           return <CarItem key={index} carId={carId} onLearnMore={openModal} />;

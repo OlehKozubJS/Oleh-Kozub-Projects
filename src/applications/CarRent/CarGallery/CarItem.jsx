@@ -4,11 +4,7 @@ import { cars } from "../../../db";
 const CarItem = ({ carId, onLearnMore }) => {
   const [
     { img, make, model, year, rentalPrice, address, rentalCompany, type, id },
-  ] = useState(
-    cars.find((car) => {
-      car.id === carId;
-    })
-  );
+  ] = useState(cars.find((car) => car.id === carId));
 
   const handleClick = () => {
     onLearnMore(id);
