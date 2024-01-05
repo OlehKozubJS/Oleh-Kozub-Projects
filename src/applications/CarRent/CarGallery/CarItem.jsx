@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { cars } from "../../../db";
 
-const CarItem = ({ carId, onLearnMore }) => {
-  const [
-    { img, make, model, year, rentalPrice, address, rentalCompany, type, id },
-  ] = useState(cars.find((car) => car.id === carId));
+const CarItem = ({ car, onLearnMore }) => {
+  const [{ make, model, year, rentalPrice, address, rentalCompany, type, id }] =
+    useState(car);
 
   const handleClick = () => {
     onLearnMore(id);
@@ -13,7 +12,7 @@ const CarItem = ({ carId, onLearnMore }) => {
   return (
     <li>
       <div>
-        <img src={img} alt="" />
+        <img src="" alt="" />
       </div>
       <h3>
         <span>
