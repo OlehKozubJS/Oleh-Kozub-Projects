@@ -1,3 +1,3 @@
 import { CarRent } from "./CarRent";
 
-export { CarRent };
+export default CarRent;
