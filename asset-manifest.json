@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Oleh-Kozub-Projects/static/js/main.a8e78b72.js",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.9986c720.js",
     "static/css/756.42fb2d8a.chunk.css": "/Oleh-Kozub-Projects/static/css/756.42fb2d8a.chunk.css",
     "static/js/756.4c6254b3.chunk.js": "/Oleh-Kozub-Projects/static/js/756.4c6254b3.chunk.js",
     "static/js/404.c5bb82fa.chunk.js": "/Oleh-Kozub-Projects/static/js/404.c5bb82fa.chunk.js",
@@ -21,7 +21,7 @@
     "static/css/484.42fb2d8a.chunk.css": "/Oleh-Kozub-Projects/static/css/484.42fb2d8a.chunk.css",
     "static/js/484.4979df6d.chunk.js": "/Oleh-Kozub-Projects/static/js/484.4979df6d.chunk.js",
     "static/css/209.54490838.chunk.css": "/Oleh-Kozub-Projects/static/css/209.54490838.chunk.css",
-    "static/js/209.da310f2b.chunk.js": "/Oleh-Kozub-Projects/static/js/209.da310f2b.chunk.js",
+    "static/js/209.dc6396fc.chunk.js": "/Oleh-Kozub-Projects/static/js/209.dc6396fc.chunk.js",
     "static/css/203.54490838.chunk.css": "/Oleh-Kozub-Projects/static/css/203.54490838.chunk.css",
     "static/js/203.b87a8f12.chunk.js": "/Oleh-Kozub-Projects/static/js/203.b87a8f12.chunk.js",
     "static/css/230.54490838.chunk.css": "/Oleh-Kozub-Projects/static/css/230.54490838.chunk.css",
@@ -44,7 +44,7 @@
     "static/media/Manrope-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
     "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
     "index.html": "/Oleh-Kozub-Projects/index.html",
-    "main.a8e78b72.js.map": "/Oleh-Kozub-Projects/static/js/main.a8e78b72.js.map",
+    "main.9986c720.js.map": "/Oleh-Kozub-Projects/static/js/main.9986c720.js.map",
     "756.42fb2d8a.chunk.css.map": "/Oleh-Kozub-Projects/static/css/756.42fb2d8a.chunk.css.map",
     "756.4c6254b3.chunk.js.map": "/Oleh-Kozub-Projects/static/js/756.4c6254b3.chunk.js.map",
     "404.c5bb82fa.chunk.js.map": "/Oleh-Kozub-Projects/static/js/404.c5bb82fa.chunk.js.map",
@@ -64,7 +64,7 @@
     "484.42fb2d8a.chunk.css.map": "/Oleh-Kozub-Projects/static/css/484.42fb2d8a.chunk.css.map",
     "484.4979df6d.chunk.js.map": "/Oleh-Kozub-Projects/static/js/484.4979df6d.chunk.js.map",
     "209.54490838.chunk.css.map": "/Oleh-Kozub-Projects/static/css/209.54490838.chunk.css.map",
-    "209.da310f2b.chunk.js.map": "/Oleh-Kozub-Projects/static/js/209.da310f2b.chunk.js.map",
+    "209.dc6396fc.chunk.js.map": "/Oleh-Kozub-Projects/static/js/209.dc6396fc.chunk.js.map",
     "203.54490838.chunk.css.map": "/Oleh-Kozub-Projects/static/css/203.54490838.chunk.css.map",
     "203.b87a8f12.chunk.js.map": "/Oleh-Kozub-Projects/static/js/203.b87a8f12.chunk.js.map",
     "230.54490838.chunk.css.map": "/Oleh-Kozub-Projects/static/css/230.54490838.chunk.css.map",
@@ -81,6 +81,6 @@
     "665.01a7b0f3.chunk.js.map": "/Oleh-Kozub-Projects/static/js/665.01a7b0f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a8e78b72.js"
+    "static/js/main.9986c720.js"
   ]
 }
