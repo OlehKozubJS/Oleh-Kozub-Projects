@@ -1,11 +1,11 @@
-import { useState /*useEffect*/ } from "react";
-import { CarRent } from "./applications/CarRent";
-//import cars from "./advertsCars.json";
+//import { useState /*useEffect*/ } from "react";
+//import { CarRent } from "./applications/CarRent";
+import { MyClock } from "./applications/MyClock";
 
 function Applications() {
   return (
     <div>
-      <CarRent />
+      <MyClock />
     </div>
   );
 }
