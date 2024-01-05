@@ -51,7 +51,7 @@ const CarModal = ({ carId, onClose }) => {
             />
           </button>
         </div>
-        <img className={css.CarModalImage} src={car.img} alt="" />
+        <img className={css.CarModalImage} src="{car.img}" alt="" />
         <h3 className={`${css.CarModalHeader} ${ManropeM}`}>
           <span>{car.make}</span>{" "}
           <span className={css.CarModalItemValue}>{car.model}</span>,{" "}
