@@ -1,3 +1,3 @@
 import { MyClock } from "./MyClockComponents/MyClock";
 
-export { MyClock };
+export default MyClock;
