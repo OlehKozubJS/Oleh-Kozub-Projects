@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Oleh-Kozub-Projects/static/css/main.d1ec0bb7.css",
-    "main.js": "/Oleh-Kozub-Projects/static/js/main.05397c2b.js",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.583469bb.js",
     "static/media/Montserrat-SemiBold.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Manrope-SemiBold.ttf": "/Oleh-Kozub-Projects/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
@@ -10,10 +10,10 @@
     "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
     "index.html": "/Oleh-Kozub-Projects/index.html",
     "main.d1ec0bb7.css.map": "/Oleh-Kozub-Projects/static/css/main.d1ec0bb7.css.map",
-    "main.05397c2b.js.map": "/Oleh-Kozub-Projects/static/js/main.05397c2b.js.map"
+    "main.583469bb.js.map": "/Oleh-Kozub-Projects/static/js/main.583469bb.js.map"
   },
   "entrypoints": [
     "static/css/main.d1ec0bb7.css",
-    "static/js/main.05397c2b.js"
+    "static/js/main.583469bb.js"
   ]
 }
