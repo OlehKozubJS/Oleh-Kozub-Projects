@@ -35,7 +35,6 @@ const MultiplicationQuiz = () => {
       setPoints(points - 1);
     }
     setAnswer(0);
-    getTask();
   };
 
   useEffect(() => {
@@ -56,7 +55,7 @@ const MultiplicationQuiz = () => {
 
   useEffect(() => {
     getTask();
-  }, []);
+  }, [points]);
 
   return (
     <div className={Container}>
