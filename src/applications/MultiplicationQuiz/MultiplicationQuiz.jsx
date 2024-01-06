@@ -61,8 +61,8 @@ const MultiplicationQuiz = () => {
   }, [time]);
 
   useEffect(() => {
-    enter();
-  }, []);
+    getTask();
+  }, [result]);
 
   return (
     <div className={css.Container}>
