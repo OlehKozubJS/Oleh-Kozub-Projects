@@ -6,6 +6,7 @@ const lazyImport = (newComponent) => {
 
 const CarRent = lazyImport("CarRent");
 const MyClock = lazyImport("MyClock");
+const MultiplicationQuiz = lazyImport("MultiplicationQuiz");
 
 function Applications() {
   const [app, setApp] = useState("CarRent");
@@ -24,11 +25,19 @@ function Applications() {
           <button type="button" onClick={selectApp} data-value="MyClock">
             My Clock
           </button>
+          <button
+            type="button"
+            onClick={selectApp}
+            data-value="MultiplicationQuiz"
+          >
+            MultiplicationQuiz
+          </button>
         </nav>
       </header>
       <main>
         {app === "CarRent" && <CarRent />}
         {app === "MyClock" && <MyClock />}
+        {app === "MultiplicationQuiz" && <MultiplicationQuiz />}
       </main>
     </Suspense>
   );

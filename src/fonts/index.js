@@ -5,5 +5,13 @@ const ManropeM = fonts.ManropeM;
 const ManropeB = fonts.ManropeB;
 const MontserratR = fonts.MontserratR;
 const MontserratB = fonts.MontserratB;
+const DancingScriptR = fonts.DancingScriptR;
 
-export { ManropeR, ManropeM, ManropeB, MontserratR, MontserratB };
+export {
+  ManropeR,
+  ManropeM,
+  ManropeB,
+  MontserratR,
+  MontserratB,
+  DancingScriptR,
+};
