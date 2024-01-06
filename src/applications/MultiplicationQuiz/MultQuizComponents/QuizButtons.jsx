@@ -1,27 +1,20 @@
 import { useState, useEffect } from "react";
 import { KeyboardButtons, KeyboardButton } from "../MultQuizCSS";
 
-const QuizButtons = ({ onAnswerInput, onEnter }) => {
-  const [answer, setAnswer] = useState(0);
-
+const QuizButtons = ({ onAnswerInput, onEnter, answer }) => {
   const setNumber = (event) => {
     const digit = Number(event.target.dataset.value);
     const newAnswer = answer * 10 + digit;
     onAnswerInput(newAnswer);
-    if (newAnswer <= 100) {
-      setAnswer(newAnswer);
-    }
   };
 
   const cancel = () => {
     const newAnswer = Math.floor(answer / 10);
     onAnswerInput(newAnswer);
-    setAnswer(newAnswer);
   };
 
   const handleEnter = () => {
     onEnter();
-    setAnswer(0);
   };
 
   return (
