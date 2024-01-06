@@ -24,9 +24,10 @@ const MultiplicationQuiz = () => {
   };
 
   const setNumber = (event) => {
-    const digit = event.target.dataset.value;
-    if (answer < 100) {
-      setAnswer(answer * 10 + digit);
+    const digit = Number(event.target.dataset.value);
+    const newAnswer = answer * 10 + digit;
+    if (newAnswer <= 100) {
+      setAnswer(newAnswer);
     }
   };
 
@@ -58,6 +59,10 @@ const MultiplicationQuiz = () => {
       clearInterval(timerSetInterval);
     };
   }, [time]);
+
+  useEffect(() => {
+    enter();
+  }, []);
 
   return (
     <div className={css.Container}>
