@@ -34,6 +34,7 @@ const MultiplicationQuiz = () => {
     } else {
       setPoints(points - 1);
     }
+    setAnswer(0);
     getTask();
   };
 
