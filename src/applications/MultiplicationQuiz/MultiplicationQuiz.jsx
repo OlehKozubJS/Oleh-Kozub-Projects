@@ -52,7 +52,7 @@ const MultiplicationQuiz = () => {
 
   useEffect(() => {
     const timer = () => {
-      if (time === 0) {
+      if (time === 1) {
         enter();
       } else {
         setTime(time - 1);
