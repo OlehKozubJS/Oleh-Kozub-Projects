@@ -62,7 +62,7 @@ const MultiplicationQuiz = () => {
 
   useEffect(() => {
     getTask();
-  }, [result]);
+  }, []);
 
   return (
     <div className={css.Container}>
