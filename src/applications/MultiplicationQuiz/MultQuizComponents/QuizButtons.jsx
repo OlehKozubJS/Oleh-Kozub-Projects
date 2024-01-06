@@ -4,6 +4,9 @@ const QuizButtons = ({ onAnswerInput, onEnter, answer }) => {
   const setNumber = (event) => {
     const digit = Number(event.target.dataset.value);
     const newAnswer = answer * 10 + digit;
+    if (newAnswer > 100) {
+      return;
+    }
     onAnswerInput(newAnswer);
   };
 
