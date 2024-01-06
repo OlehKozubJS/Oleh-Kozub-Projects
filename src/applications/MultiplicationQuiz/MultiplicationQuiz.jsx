@@ -60,7 +60,11 @@ const MultiplicationQuiz = () => {
   return (
     <div className={Container}>
       <QuizOutputs task={task} time={time} answer={answer} points={points} />
-      <QuizButtons onAnswerInput={handleAnswerInput} onEnter={enter} />
+      <QuizButtons
+        onAnswerInput={handleAnswerInput}
+        onEnter={enter}
+        answer={answer}
+      />
     </div>
   );
 };
