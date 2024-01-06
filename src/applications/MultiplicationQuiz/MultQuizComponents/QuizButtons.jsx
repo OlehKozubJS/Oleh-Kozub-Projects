@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { KeyboardButtons, KeyboardButton } from "../MultQuizCSS";
 
 const QuizButtons = ({ onAnswerInput, onEnter, answer }) => {
