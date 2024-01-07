@@ -1,18 +1,6 @@
-import { lazy, Suspense, useState } from "react";
+import { useState } from "react";
 import { SelectItem, MultipleAppLoader } from "./common-components";
-/*
-const LazyImport = ({ newComponent }) => {
-  const NewApplication = lazy(() =>
-    import(`./applications/${newComponent.replaceAll(" ", "")}`)
-  );
 
-  return (
-    <Suspense>
-      <NewApplication />
-    </Suspense>
-  );
-};
-*/
 function Applications() {
   const [app, setApp] = useState("CarRent");
 
@@ -21,7 +9,7 @@ function Applications() {
   };
 
   return (
-    <Suspense>
+    <div>
       <header>
         <nav>
           <SelectItem
@@ -33,7 +21,7 @@ function Applications() {
       <main>
         <MultipleAppLoader applicationName={app} />
       </main>
-    </Suspense>
+    </div>
   );
 }
 
