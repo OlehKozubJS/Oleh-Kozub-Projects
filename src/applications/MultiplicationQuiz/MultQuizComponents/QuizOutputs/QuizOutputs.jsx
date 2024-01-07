@@ -1,4 +1,4 @@
-import { Outputs, Output } from "../MultQuizCSS";
+import { Outputs, Output } from "./QuizOutputStyles";
 
 const QuizOutputs = ({ task, time, answer, points }) => {
   return (

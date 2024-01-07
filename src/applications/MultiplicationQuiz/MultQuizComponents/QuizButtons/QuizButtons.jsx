@@ -1,4 +1,4 @@
-import { KeyboardButtons, KeyboardButton } from "../MultQuizCSS";
+import { KeyboardButtons, KeyboardButton } from "./QuizButtonsStyles";
 
 const QuizButtons = ({ onAnswerInput, onEnter, answer }) => {
   const setNumber = (event) => {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Container } from "./MultQuizCSS";
-import { QuizButtons, QuizOutputs } from "./MultQuizComponents";
+import { Container } from "./MultQuizStyles";
+import { QuizButtons, QuizOutputs } from "../../MultQuizComponents";
 
 const MultiplicationQuiz = () => {
   const [task, setTask] = useState("");

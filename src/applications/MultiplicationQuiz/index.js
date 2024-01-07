@@ -1,3 +1,3 @@
-import { MultiplicationQuiz } from "./MultiplicationQuiz";
+import { MultiplicationQuiz } from "./MultQuizPages";
 
 export default MultiplicationQuiz;
