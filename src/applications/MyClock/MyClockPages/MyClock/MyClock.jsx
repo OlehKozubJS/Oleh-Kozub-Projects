@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
-import { ClockMarkings } from "../../MyClockComponents/ClockMarkings";
-import { ClockDigits } from "../../MyClockComponents/ClockDigits";
 import {
-  ClockFace,
-  DateTimeData,
-  SecArrow,
-  MinArrow,
+  ClockMarkings,
+  ClockDigits,
   HourArrow,
-  ArrowAxisCover,
-} from "./MyClockStyles";
+  MinuteArrow,
+  SecondArrow,
+  DateTimeDisplay,
+} from "../../MyClockComponents";
+import { ClockFace, ArrowAxisCover } from "./MyClockStyles";
 
 const MyClock = () => {
   const [hours, setHours] = useState(0);
@@ -49,22 +48,10 @@ const MyClock = () => {
     <div className={ClockFace}>
       <ClockMarkings />
       <ClockDigits />
-      <div className={DateTimeData}>
-        <div>{time}</div>
-        <div>{date}</div>
-      </div>
-      <div
-        className={HourArrow}
-        style={{ transform: `rotate(${hours * 30}deg)` }}
-      ></div>
-      <div
-        className={MinArrow}
-        style={{ transform: `rotate(${minutes * 6}deg)` }}
-      ></div>
-      <div
-        className={SecArrow}
-        style={{ transform: `rotate(${seconds * 6}deg)` }}
-      ></div>
+      <HourArrow hours={hours} />
+      <MinuteArrow minutes={minutes} />
+      <SecondArrow seconds={seconds} />
+      <DateTimeDisplay time={time} date={date} />
       <div className={ArrowAxisCover}></div>
     </div>
   );

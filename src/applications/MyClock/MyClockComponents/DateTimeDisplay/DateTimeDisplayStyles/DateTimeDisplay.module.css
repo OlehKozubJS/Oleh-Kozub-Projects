@@ -1,0 +1,10 @@
+.DateTimeDisplay {
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}

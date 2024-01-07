@@ -1,0 +1,25 @@
+.Arrow {
+  position: absolute;
+  left: 245px;
+  width: 10px;
+  border-radius: 5px;
+  transform-origin: bottom;
+}
+
+.SecondArrow {
+  top: 0px;
+  height: 250px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.MinuteArrow {
+  top: 50px;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.HourArrow {
+  top: 100px;
+  height: 150px;
+  background-color: rgba(0, 0, 255, 0.5);
+}

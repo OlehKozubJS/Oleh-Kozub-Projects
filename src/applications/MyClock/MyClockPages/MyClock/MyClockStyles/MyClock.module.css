@@ -7,43 +7,6 @@
   position: relative;
 }
 
-.DateTimeData {
-  position: absolute;
-  top: 270px;
-  left: 150px;
-  height: 100px;
-  width: 200px;
-  font-size: 30px;
-  color: blue;
-  text-align: center;
-}
-
-.Arrow {
-  position: absolute;
-  left: 245px;
-  width: 10px;
-  border-radius: 5px;
-  transform-origin: bottom;
-}
-
-.SecArrow {
-  top: 0px;
-  height: 250px;
-  background-color: rgba(0, 0, 255, 0.5);
-}
-
-.MinArrow {
-  top: 50px;
-  height: 200px;
-  background-color: rgba(0, 0, 255, 0.5);
-}
-
-.HourArrow {
-  top: 100px;
-  height: 150px;
-  background-color: rgba(0, 0, 255, 0.5);
-}
-
 .ArrowAxisCover {
   position: absolute;
   top: 240px;
