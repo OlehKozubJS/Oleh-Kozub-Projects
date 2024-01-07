@@ -1,7 +1,10 @@
 import { lazy, Suspense, useState, useEffect } from "react";
 
-const lazyImport = (newComponent) => {
-  return lazy(() => import(`./applications/${newComponent}`));
+const lazyImport = (applicationName) => {
+  const NewApplication = lazy(() =>
+    import(`./applications/${applicationName}`)
+  );
+  return <NewApplication />;
 };
 
 const CarRent = lazyImport("CarRent");
@@ -35,9 +38,9 @@ function Applications() {
         </nav>
       </header>
       <main>
-        {app === "CarRent" && <CarRent />}
-        {app === "MyClock" && <MyClock />}
-        {app === "MultiplicationQuiz" && <MultiplicationQuiz />}
+        {app === "CarRent" && CarRent}
+        {app === "MyClock" && MyClock}
+        {app === "MultiplicationQuiz" && MultiplicationQuiz}
       </main>
     </Suspense>
   );
