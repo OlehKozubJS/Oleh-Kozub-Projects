@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[553],{553:(e,t,o)=>{o.r(t),o.d(t,{default:()=>u});const u={Container:"MultQuiz_Container__Oq4nt"}}}]);
+//# sourceMappingURL=553.c33e8d04.chunk.js.map
