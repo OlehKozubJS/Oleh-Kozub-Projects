@@ -1,8 +1,8 @@
 import { lazy, Suspense } from "react";
 
-const LazyImport = ({ newComponent }) => {
+const MultipleAppLoader = ({ applicationName }) => {
   const NewApplication = lazy(() =>
-    import(`../../applications/${newComponent.replaceAll(" ", "")}`)
+    import(`../../applications/${applicationName.replaceAll(" ", "")}`)
   );
 
   return (
@@ -10,10 +10,6 @@ const LazyImport = ({ newComponent }) => {
       <NewApplication />
     </Suspense>
   );
-};
-
-const MultipleAppLoader = ({ applicationName }) => {
-  return <LazyImport newComponent={applicationName} />;
 };
 
 export { MultipleAppLoader };
