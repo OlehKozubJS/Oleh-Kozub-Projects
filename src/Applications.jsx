@@ -26,5 +26,3 @@ function Applications() {
 }
 
 export { Applications };
-
-//<MultipleAppLoader applicationName={app} />
