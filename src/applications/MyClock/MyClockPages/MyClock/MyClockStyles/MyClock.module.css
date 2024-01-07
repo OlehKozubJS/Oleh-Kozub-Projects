@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
-
 .ClockFace {
   height: 500px;
   width: 500px;
@@ -18,7 +16,6 @@
   font-size: 30px;
   color: blue;
   text-align: center;
-  font-family: "Rajdhani", sans-serif;
 }
 
 .Arrow {

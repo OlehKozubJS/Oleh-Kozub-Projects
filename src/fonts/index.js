@@ -6,6 +6,7 @@ const ManropeB = fonts.ManropeB;
 const MontserratR = fonts.MontserratR;
 const MontserratB = fonts.MontserratB;
 const DancingScriptR = fonts.DancingScriptR;
+const RajdhaniR = fonts.RajdhaniR;
 
 export {
   ManropeR,
@@ -14,4 +15,5 @@ export {
   MontserratR,
   MontserratB,
   DancingScriptR,
+  RajdhaniR,
 };

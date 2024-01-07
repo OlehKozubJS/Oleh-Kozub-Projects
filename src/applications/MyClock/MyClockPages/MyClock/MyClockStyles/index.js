@@ -1,6 +1,7 @@
 import css from "./MyClock.module.css";
+import { RajdhaniR } from "../../../../../fonts";
 
-const ClockFace = css.ClockFace;
+const ClockFace = `${css.ClockFace} ${RajdhaniR}`;
 const DateTimeData = css.DateTimeData;
 const Arrow = css.Arrow;
 const SecArrow = `${Arrow} ${css.SecArrow}`;
