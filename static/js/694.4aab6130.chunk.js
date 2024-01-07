@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[694],{9694:(o,r,_)=>{_.r(r),_.d(r,{default:()=>e});const e={ClockFace:"MyClock_ClockFace__sAL+f",DateTimeData:"MyClock_DateTimeData__oQjss",Arrow:"MyClock_Arrow__NB5Z+",SecArrow:"MyClock_SecArrow__OlSKL",MinArrow:"MyClock_MinArrow__7aGlw",HourArrow:"MyClock_HourArrow__DLOMa",ArrowAxisCover:"MyClock_ArrowAxisCover__kMu+n"}}}]);
-//# sourceMappingURL=694.4aab6130.chunk.js.map

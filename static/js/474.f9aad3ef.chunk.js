@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[474,589],{6474:(u,t,p)=>{p.r(t),p.d(t,{Output:()=>O,Outputs:()=>e});var s=p(9589);const e=s.default.Outputs,O=s.default.Output},9589:(u,t,p)=>{p.r(t),p.d(t,{default:()=>s});const s={Outputs:"QuizOutputs_Outputs__pQETl",Output:"QuizOutputs_Output__NqAxG"}}}]);
-//# sourceMappingURL=474.f9aad3ef.chunk.js.map

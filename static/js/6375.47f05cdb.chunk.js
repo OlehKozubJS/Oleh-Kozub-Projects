@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[6375],{6375:(r,o,_)=>{_.r(o),_.d(o,{default:()=>e});const e={Arrow:"ClockArrows_Arrow__ZoIOW",SecondArrow:"ClockArrows_SecondArrow__MKq3T",MinuteArrow:"ClockArrows_MinuteArrow__DWehD",HourArrow:"ClockArrows_HourArrow__x19aD"}}}]);
+//# sourceMappingURL=6375.47f05cdb.chunk.js.map

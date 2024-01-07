@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[9694],{9694:(o,e,c)=>{c.r(e),c.d(e,{default:()=>k});const k={ClockFace:"MyClock_ClockFace__sAL+f",ArrowAxisCover:"MyClock_ArrowAxisCover__kMu+n"}}}]);
+//# sourceMappingURL=9694.f6a2e423.chunk.js.map

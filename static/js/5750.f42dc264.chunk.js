@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[5750,8552],{5750:(t,i,l)=>{l.r(i),l.d(i,{ClockDigitStyle:()=>k,ClockDigitsStyle:()=>c});var o=l(8552);const c=o.default.ClockDigits,k=o.default.ClockDigit},8552:(t,i,l)=>{l.r(i),l.d(i,{default:()=>o});const o={ClockDigits:"ClockDigits_ClockDigits__e74nt",ClockDigit:"ClockDigits_ClockDigit__jr5ua"}}}]);
+//# sourceMappingURL=5750.f42dc264.chunk.js.map

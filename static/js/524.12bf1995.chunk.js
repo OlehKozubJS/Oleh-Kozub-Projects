@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[524],{7524:(e,s,o)=>{o.r(s),o.d(s,{default:()=>u});const u={}}}]);
-//# sourceMappingURL=524.12bf1995.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[7218,9964],{7218:(k,l,o)=>{o.r(l),o.d(l,{ClockMarkingStyle:()=>r,ClockMarkingsStyle:()=>a});var c=o(9964);const a=c.default.ClockMarkings,r=c.default.ClockMarking},9964:(k,l,o)=>{o.r(l),o.d(l,{default:()=>c});const c={ClockMarkings:"ClockMarkings_ClockMarkings__J0JHD",ClockMarking:"ClockMarkings_ClockMarking__IibeE"}}}]);
+//# sourceMappingURL=7218.3623ef56.chunk.js.map

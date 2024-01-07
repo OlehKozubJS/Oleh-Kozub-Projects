@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[9964],{9964:(k,o,c)=>{c.r(o),c.d(o,{default:()=>s});const s={ClockMarkings:"ClockMarkings_ClockMarkings__J0JHD",ClockMarking:"ClockMarkings_ClockMarking__IibeE"}}}]);
+//# sourceMappingURL=9964.7f833862.chunk.js.map
