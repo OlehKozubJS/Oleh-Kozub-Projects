@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[615],{8615:(t,o,u)=>{u.r(o),u.d(o,{default:()=>e});const e={KeyboardButtons:"QuizButtons_KeyboardButtons__LclfO",KeyboardButton:"QuizButtons_KeyboardButton__BKBaj"}}}]);
+//# sourceMappingURL=615.71f50196.chunk.js.map

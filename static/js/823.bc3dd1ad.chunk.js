@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[823],{6743:(e,r,s)=>{s.r(r),s.d(r,{CarFilter:()=>t});s(2791);var o=s(184);const t=e=>{let{carId:r,onClose:s}=e;return(0,o.jsx)("div",{children:(0,o.jsx)(o.Fragment,{})})}}}]);
+//# sourceMappingURL=823.bc3dd1ad.chunk.js.map
