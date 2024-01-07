@@ -1,49 +1,42 @@
-import { lazy, Suspense, useState, useEffect } from "react";
-
-const lazyImport = (applicationName) => {
+import { lazy, Suspense, useState } from "react";
+import { SelectItem, MultipleAppLoader } from "./common-components";
+/*
+const LazyImport = ({ newComponent }) => {
   const NewApplication = lazy(() =>
-    import(`./applications/${applicationName}`)
+    import(`./applications/${newComponent.replaceAll(" ", "")}`)
   );
-  return <NewApplication />;
+
+  return (
+    <Suspense>
+      <NewApplication />
+    </Suspense>
+  );
 };
-
-const CarRent = lazyImport("CarRent");
-const MyClock = lazyImport("MyClock");
-const MultiplicationQuiz = lazyImport("MultiplicationQuiz");
-
+*/
 function Applications() {
   const [app, setApp] = useState("CarRent");
 
-  const selectApp = (event) => {
-    setApp(event.target.dataset.value);
+  const selectApp = (appName) => {
+    setApp(appName);
   };
 
   return (
     <Suspense>
       <header>
         <nav>
-          <button type="button" onClick={selectApp} data-value="CarRent">
-            Car Rent
-          </button>
-          <button type="button" onClick={selectApp} data-value="MyClock">
-            My Clock
-          </button>
-          <button
-            type="button"
-            onClick={selectApp}
-            data-value="MultiplicationQuiz"
-          >
-            MultiplicationQuiz
-          </button>
+          <SelectItem
+            items={["Car Rent", "My Clock", "Multiplication Quiz"]}
+            onSelectItem={selectApp}
+          />
         </nav>
       </header>
       <main>
-        {app === "CarRent" && CarRent}
-        {app === "MyClock" && MyClock}
-        {app === "MultiplicationQuiz" && MultiplicationQuiz}
+        <MultipleAppLoader applicationName={app} />
       </main>
     </Suspense>
   );
 }
 
 export { Applications };
+
+//<MultipleAppLoader applicationName={app} />
