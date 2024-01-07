@@ -1,10 +1,10 @@
-import { ClockDigitItem } from "./ClockDigit";
+import { ClockDigit } from "./ClockDigit";
 
 const ClockDigits = () => {
   const spawn = () => {
     let digits = [];
     for (let digit = 1; digit <= 12; digit += 1) {
-      digits = [...digits, <ClockDigitItem key={digit} digit={digit} />];
+      digits = [...digits, <ClockDigit key={digit} digit={digit} />];
     }
 
     return digits;

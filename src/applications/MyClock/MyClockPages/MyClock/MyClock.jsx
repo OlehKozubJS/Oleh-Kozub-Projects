@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { ClockMarkings } from "./ClockMarkings";
-import { ClockDigits } from "./ClockDigits";
+import { ClockMarkings } from "../../MyClockComponents/ClockMarkings";
+import { ClockDigits } from "../../MyClockComponents/ClockDigits";
 import {
   ClockFace,
   DateTimeData,
@@ -8,7 +8,7 @@ import {
   MinArrow,
   HourArrow,
   ArrowAxisCover,
-} from "../MyClockCSS";
+} from "./MyClockStyles";
 
 const MyClock = () => {
   const [hours, setHours] = useState(0);

@@ -1,4 +1,4 @@
-import { ClockMarkingItem } from "./ClockMarking";
+import { ClockMarking } from "./ClockMarking";
 
 const ClockMarkings = () => {
   const spawn = () => {
@@ -6,7 +6,7 @@ const ClockMarkings = () => {
     for (let marking = 1; marking <= 60; marking += 1) {
       markings = [
         ...markings,
-        <ClockMarkingItem key={marking} marking={marking} />,
+        <ClockMarking key={marking} marking={marking} />,
       ];
     }
 

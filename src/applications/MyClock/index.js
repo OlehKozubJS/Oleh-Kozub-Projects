@@ -1,3 +1,3 @@
-import { MyClock } from "./MyClockComponents/MyClock";
+import { MyClock } from "./MyClockPages";
 
 export default MyClock;

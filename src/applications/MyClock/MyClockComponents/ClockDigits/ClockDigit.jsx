@@ -1,13 +1,13 @@
-import { ClockDigitContainer, ClockDigit } from "../MyClockCSS";
+import { ClockDigitsStyle, ClockDigitStyle } from "./ClockDigitsStyles";
 
-const ClockDigitItem = ({ digit }) => {
+const ClockDigit = ({ digit }) => {
   return (
     <div
-      className={ClockDigitContainer}
+      className={ClockDigitsStyle}
       style={{ transform: `rotate(${30 * digit}deg)` }}
     >
       <div
-        className={ClockDigit}
+        className={ClockDigitStyle}
         style={{ transform: `rotate(${-30 * digit}deg)` }}
       >
         {digit}
@@ -16,4 +16,4 @@ const ClockDigitItem = ({ digit }) => {
   );
 };
 
-export { ClockDigitItem };
+export { ClockDigit };

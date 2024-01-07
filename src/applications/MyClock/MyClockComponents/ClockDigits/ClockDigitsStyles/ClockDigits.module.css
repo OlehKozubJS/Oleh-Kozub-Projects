@@ -1,0 +1,20 @@
+.ClockDigits {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  height: 250px;
+  width: 100px;
+  transform-origin: bottom;
+}
+
+.ClockDigit {
+  width: 100px;
+  height: 100px;
+  font-size: 54px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Rajdhani", sans-serif;
+}

@@ -1,0 +1,16 @@
+.ClockMarkings {
+  position: absolute;
+  top: 0;
+  left: 245px;
+  height: 250px;
+  width: 10px;
+  transform-origin: bottom;
+}
+
+.ClockMarking {
+  height: 20px;
+  width: 10px;
+  font-size: 54px;
+  background-color: rgba(150, 150, 255, 1);
+  border-radius: 5px;
+}
