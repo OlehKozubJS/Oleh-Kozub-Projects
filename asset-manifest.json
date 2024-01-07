@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Oleh-Kozub-Projects/static/js/main.995eae47.js",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.62c978fb.js",
     "static/css/2756.8e9f99ad.chunk.css": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css",
     "static/js/2756.40bb5cd3.chunk.js": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js",
     "static/js/4404.b93df357.chunk.js": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js",
@@ -50,6 +50,10 @@
     "static/js/7553.00c12e3b.chunk.js": "/Oleh-Kozub-Projects/static/js/7553.00c12e3b.chunk.js",
     "static/css/6956.9d86c6b2.chunk.css": "/Oleh-Kozub-Projects/static/css/6956.9d86c6b2.chunk.css",
     "static/js/6956.57572060.chunk.js": "/Oleh-Kozub-Projects/static/js/6956.57572060.chunk.js",
+    "static/js/5149.817a1c2a.chunk.js": "/Oleh-Kozub-Projects/static/js/5149.817a1c2a.chunk.js",
+    "static/js/8708.86d26d0d.chunk.js": "/Oleh-Kozub-Projects/static/js/8708.86d26d0d.chunk.js",
+    "static/js/1499.efcc80ef.chunk.js": "/Oleh-Kozub-Projects/static/js/1499.efcc80ef.chunk.js",
+    "static/js/4210.5c17868a.chunk.js": "/Oleh-Kozub-Projects/static/js/4210.5c17868a.chunk.js",
     "static/css/3209.0db159e2.chunk.css": "/Oleh-Kozub-Projects/static/css/3209.0db159e2.chunk.css",
     "static/js/3209.338700c1.chunk.js": "/Oleh-Kozub-Projects/static/js/3209.338700c1.chunk.js",
     "static/css/8213.90b01ff7.chunk.css": "/Oleh-Kozub-Projects/static/css/8213.90b01ff7.chunk.css",
@@ -113,7 +117,7 @@
     "static/media/DancingScript-Regular.ttf": "/Oleh-Kozub-Projects/static/media/DancingScript-Regular.5e15416c2d596d51a588.ttf",
     "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
     "index.html": "/Oleh-Kozub-Projects/index.html",
-    "main.995eae47.js.map": "/Oleh-Kozub-Projects/static/js/main.995eae47.js.map",
+    "main.62c978fb.js.map": "/Oleh-Kozub-Projects/static/js/main.62c978fb.js.map",
     "2756.8e9f99ad.chunk.css.map": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css.map",
     "2756.40bb5cd3.chunk.js.map": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js.map",
     "4404.b93df357.chunk.js.map": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js.map",
@@ -218,6 +222,6 @@
     "9694.f6a2e423.chunk.js.map": "/Oleh-Kozub-Projects/static/js/9694.f6a2e423.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.995eae47.js"
+    "static/js/main.62c978fb.js"
   ]
 }
