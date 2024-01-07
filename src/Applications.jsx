@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SelectItem, MultipleAppLoader } from "./common-components";
+import { applications } from "./db";
 
 function Applications() {
   const [app, setApp] = useState("CarRent");
@@ -12,10 +13,7 @@ function Applications() {
     <div>
       <header>
         <nav>
-          <SelectItem
-            items={["Car Rent", "My Clock", "Multiplication Quiz"]}
-            onSelectItem={selectApp}
-          />
+          <SelectItem items={applications} onSelectItem={selectApp} />
         </nav>
       </header>
       <main>
