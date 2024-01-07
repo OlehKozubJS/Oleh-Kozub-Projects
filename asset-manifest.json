@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Oleh-Kozub-Projects/static/js/main.40e0738e.js",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.770a4007.js",
     "static/css/2756.8e9f99ad.chunk.css": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css",
     "static/js/2756.40bb5cd3.chunk.js": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js",
     "static/js/4404.b93df357.chunk.js": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js",
@@ -104,7 +104,6 @@
     "static/js/5241.481ad52e.chunk.js": "/Oleh-Kozub-Projects/static/js/5241.481ad52e.chunk.js",
     "static/css/9694.5c00b67a.chunk.css": "/Oleh-Kozub-Projects/static/css/9694.5c00b67a.chunk.css",
     "static/js/9694.f6a2e423.chunk.js": "/Oleh-Kozub-Projects/static/js/9694.f6a2e423.chunk.js",
-    "static/js/3482.c134a9ff.chunk.js": "/Oleh-Kozub-Projects/static/js/3482.c134a9ff.chunk.js",
     "static/media/Rajdhani-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Regular.ttf": "/Oleh-Kozub-Projects/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
@@ -114,7 +113,7 @@
     "static/media/DancingScript-Regular.ttf": "/Oleh-Kozub-Projects/static/media/DancingScript-Regular.5e15416c2d596d51a588.ttf",
     "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
     "index.html": "/Oleh-Kozub-Projects/index.html",
-    "main.40e0738e.js.map": "/Oleh-Kozub-Projects/static/js/main.40e0738e.js.map",
+    "main.770a4007.js.map": "/Oleh-Kozub-Projects/static/js/main.770a4007.js.map",
     "2756.8e9f99ad.chunk.css.map": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css.map",
     "2756.40bb5cd3.chunk.js.map": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js.map",
     "4404.b93df357.chunk.js.map": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js.map",
@@ -219,6 +218,6 @@
     "9694.f6a2e423.chunk.js.map": "/Oleh-Kozub-Projects/static/js/9694.f6a2e423.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.40e0738e.js"
+    "static/js/main.770a4007.js"
   ]
 }
