@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[3369],{3369:(e,s,n)=>{n.r(s),n.d(s,{commonSounds:()=>o});const o=[{name:"\u0414\u043e",degrees:1,semitones:1},{name:"\u0420\u0435",degrees:2,semitones:3},{name:"\u041c\u0456",degrees:3,semitones:5},{name:"\u0424\u0430",degrees:4,semitones:6},{name:"\u0421\u043e\u043b\u044c",degrees:5,semitones:8},{name:"\u041b\u044f",degrees:6,semitones:10},{name:"\u0421\u0456",degrees:7,semitones:12}]}}]);
+//# sourceMappingURL=3369.9bac87d1.chunk.js.map

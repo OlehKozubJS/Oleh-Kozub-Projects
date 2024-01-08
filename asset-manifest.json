@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Oleh-Kozub-Projects/static/js/main.e907b5ba.js",
+    "main.js": "/Oleh-Kozub-Projects/static/js/main.adaf1f21.js",
     "static/css/2756.8e9f99ad.chunk.css": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css",
     "static/js/2756.40bb5cd3.chunk.js": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js",
     "static/js/4404.b93df357.chunk.js": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js",
@@ -50,10 +50,15 @@
     "static/js/7553.00c12e3b.chunk.js": "/Oleh-Kozub-Projects/static/js/7553.00c12e3b.chunk.js",
     "static/css/6956.9d86c6b2.chunk.css": "/Oleh-Kozub-Projects/static/css/6956.9d86c6b2.chunk.css",
     "static/js/6956.57572060.chunk.js": "/Oleh-Kozub-Projects/static/js/6956.57572060.chunk.js",
-    "static/js/5149.817a1c2a.chunk.js": "/Oleh-Kozub-Projects/static/js/5149.817a1c2a.chunk.js",
-    "static/js/8708.86d26d0d.chunk.js": "/Oleh-Kozub-Projects/static/js/8708.86d26d0d.chunk.js",
-    "static/js/1499.999ca757.chunk.js": "/Oleh-Kozub-Projects/static/js/1499.999ca757.chunk.js",
-    "static/js/4210.5c17868a.chunk.js": "/Oleh-Kozub-Projects/static/js/4210.5c17868a.chunk.js",
+    "static/js/3240.31cca2e7.chunk.js": "/Oleh-Kozub-Projects/static/js/3240.31cca2e7.chunk.js",
+    "static/js/634.c4980f4a.chunk.js": "/Oleh-Kozub-Projects/static/js/634.c4980f4a.chunk.js",
+    "static/js/629.e07dc147.chunk.js": "/Oleh-Kozub-Projects/static/js/629.e07dc147.chunk.js",
+    "static/js/324.f7b8194b.chunk.js": "/Oleh-Kozub-Projects/static/js/324.f7b8194b.chunk.js",
+    "static/js/3369.9bac87d1.chunk.js": "/Oleh-Kozub-Projects/static/js/3369.9bac87d1.chunk.js",
+    "static/js/9844.7980331a.chunk.js": "/Oleh-Kozub-Projects/static/js/9844.7980331a.chunk.js",
+    "static/js/2014.b574c6b5.chunk.js": "/Oleh-Kozub-Projects/static/js/2014.b574c6b5.chunk.js",
+    "static/js/1629.00b6afbc.chunk.js": "/Oleh-Kozub-Projects/static/js/1629.00b6afbc.chunk.js",
+    "static/js/1470.9eea2439.chunk.js": "/Oleh-Kozub-Projects/static/js/1470.9eea2439.chunk.js",
     "static/css/3209.0db159e2.chunk.css": "/Oleh-Kozub-Projects/static/css/3209.0db159e2.chunk.css",
     "static/js/3209.338700c1.chunk.js": "/Oleh-Kozub-Projects/static/js/3209.338700c1.chunk.js",
     "static/css/8213.90b01ff7.chunk.css": "/Oleh-Kozub-Projects/static/css/8213.90b01ff7.chunk.css",
@@ -117,7 +122,7 @@
     "static/media/DancingScript-Regular.ttf": "/Oleh-Kozub-Projects/static/media/DancingScript-Regular.5e15416c2d596d51a588.ttf",
     "static/media/icons.svg": "/Oleh-Kozub-Projects/static/media/icons.a1b870d457e2cfd1e28f038db23ac788.svg",
     "index.html": "/Oleh-Kozub-Projects/index.html",
-    "main.e907b5ba.js.map": "/Oleh-Kozub-Projects/static/js/main.e907b5ba.js.map",
+    "main.adaf1f21.js.map": "/Oleh-Kozub-Projects/static/js/main.adaf1f21.js.map",
     "2756.8e9f99ad.chunk.css.map": "/Oleh-Kozub-Projects/static/css/2756.8e9f99ad.chunk.css.map",
     "2756.40bb5cd3.chunk.js.map": "/Oleh-Kozub-Projects/static/js/2756.40bb5cd3.chunk.js.map",
     "4404.b93df357.chunk.js.map": "/Oleh-Kozub-Projects/static/js/4404.b93df357.chunk.js.map",
@@ -166,7 +171,15 @@
     "7553.00c12e3b.chunk.js.map": "/Oleh-Kozub-Projects/static/js/7553.00c12e3b.chunk.js.map",
     "6956.9d86c6b2.chunk.css.map": "/Oleh-Kozub-Projects/static/css/6956.9d86c6b2.chunk.css.map",
     "6956.57572060.chunk.js.map": "/Oleh-Kozub-Projects/static/js/6956.57572060.chunk.js.map",
-    "1499.999ca757.chunk.js.map": "/Oleh-Kozub-Projects/static/js/1499.999ca757.chunk.js.map",
+    "3240.31cca2e7.chunk.js.map": "/Oleh-Kozub-Projects/static/js/3240.31cca2e7.chunk.js.map",
+    "634.c4980f4a.chunk.js.map": "/Oleh-Kozub-Projects/static/js/634.c4980f4a.chunk.js.map",
+    "629.e07dc147.chunk.js.map": "/Oleh-Kozub-Projects/static/js/629.e07dc147.chunk.js.map",
+    "324.f7b8194b.chunk.js.map": "/Oleh-Kozub-Projects/static/js/324.f7b8194b.chunk.js.map",
+    "3369.9bac87d1.chunk.js.map": "/Oleh-Kozub-Projects/static/js/3369.9bac87d1.chunk.js.map",
+    "9844.7980331a.chunk.js.map": "/Oleh-Kozub-Projects/static/js/9844.7980331a.chunk.js.map",
+    "2014.b574c6b5.chunk.js.map": "/Oleh-Kozub-Projects/static/js/2014.b574c6b5.chunk.js.map",
+    "1629.00b6afbc.chunk.js.map": "/Oleh-Kozub-Projects/static/js/1629.00b6afbc.chunk.js.map",
+    "1470.9eea2439.chunk.js.map": "/Oleh-Kozub-Projects/static/js/1470.9eea2439.chunk.js.map",
     "3209.0db159e2.chunk.css.map": "/Oleh-Kozub-Projects/static/css/3209.0db159e2.chunk.css.map",
     "3209.338700c1.chunk.js.map": "/Oleh-Kozub-Projects/static/js/3209.338700c1.chunk.js.map",
     "8213.90b01ff7.chunk.css.map": "/Oleh-Kozub-Projects/static/css/8213.90b01ff7.chunk.css.map",
@@ -223,6 +236,6 @@
     "9694.f6a2e423.chunk.js.map": "/Oleh-Kozub-Projects/static/js/9694.f6a2e423.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e907b5ba.js"
+    "static/js/main.adaf1f21.js"
   ]
 }
