@@ -14,3 +14,5 @@ const intervals = [
   { name: "Велика септима", degrees: 6, semitones: 11 },
   { name: "Чиста октава", degrees: 7, semitones: 12 },
 ];
+
+export { intervals };
