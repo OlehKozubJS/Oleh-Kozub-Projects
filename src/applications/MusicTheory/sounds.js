@@ -1,4 +1,4 @@
-const sounds = [
+const commonSounds = [
   { name: "До", degrees: 1, semitones: 1 },
   { name: "Ре", degrees: 2, semitones: 3 },
   { name: "Мі", degrees: 3, semitones: 5 },
@@ -26,3 +26,26 @@ const octaves = [
   " третьої октави",
   " четвертої октави",
 ];
+
+const getFullSoundInformation = (
+  soundDegrees,
+  soundSemitones,
+  initialOctaveIndex
+) => {
+  const clearSoundDegrees = soundDegrees % 7;
+  const clearSoundSemitones = soundSemitones % 12;
+
+  const soundOctaveDifference = Math.floor(soundDegrees / 7);
+  const soundOctaveIndex = initialOctaveIndex + soundOctaveDifference;
+
+  const { name: soundName, semitones: commonSoundSemitones } =
+    commonSounds.find((sound) => sound.degrees === clearSoundDegrees);
+
+  const { name: signName } = signs.find(
+    (sign) => sign.semitones === clearSoundSemitones - commonSoundSemitones
+  );
+
+  return { name: soundName, sign: signName, octave: octaves[soundOctaveIndex] };
+};
+
+export { getFullSoundInformation };
