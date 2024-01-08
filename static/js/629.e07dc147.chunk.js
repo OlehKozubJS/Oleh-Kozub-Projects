@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkoleh_kozub_projects=self.webpackChunkoleh_kozub_projects||[]).push([[629],{629:(e,s,o)=>{o.r(s),o.d(s,{getSoundData:()=>n});const n=(e,s,o)=>{const n=e%7,t=s%12,a=o+Math.floor(e/7),{name:c,semitones:u}=commonSounds.find((e=>e.degrees===n)),{name:r}=signs.find((e=>e.semitones===t-u));return{name:c,sign:r,octave:octaves[a]}}}}]);
-//# sourceMappingURL=629.e07dc147.chunk.js.map
