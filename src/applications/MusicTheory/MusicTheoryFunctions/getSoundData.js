@@ -1,3 +1,5 @@
+import { commonSounds, signs, octaves } from "../MusicTheoryItems";
+
 const getSoundData = (soundDegrees, soundSemitones, initialOctaveIndex) => {
   const clearSoundDegrees = soundDegrees % 7;
   const clearSoundSemitones = soundSemitones % 12;
