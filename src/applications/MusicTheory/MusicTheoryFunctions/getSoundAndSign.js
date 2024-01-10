@@ -16,7 +16,12 @@ const getSound = (degrees) => {
   });
 };
 
-const separateOctaves = () => {};
+const separateOctaves = ({ degrees, semitones }) => {
+  const clearDegrees = degrees % 7;
+  const octaves = (degrees - clearDegrees) / 7;
+  const clearSemitones = semitones - 12 * octaves;
+  return { degrees: clearDegrees, semitones: clearSemitones, octaves };
+};
 
 const getSoundAndSign = ({ degrees, semitones }) => {};
 
