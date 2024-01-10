@@ -10,11 +10,13 @@ const getOctave = (index) => {
   return octaves[index];
 };
 
-const getSound = (semitones) => {
+const getSound = (degrees) => {
   return commonSounds.find((sound) => {
-    sound.semitones === semitones;
+    sound.degrees === degrees;
   });
 };
+
+const separateOctaves = () => {};
 
 const getSoundAndSign = ({ degrees, semitones }) => {};
 
